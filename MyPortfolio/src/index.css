@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* offset anchor scrolling to account for fixed header */
+html {
+	scroll-padding-top: 4rem;
+}

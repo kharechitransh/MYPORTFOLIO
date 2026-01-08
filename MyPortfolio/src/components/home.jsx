@@ -19,7 +19,7 @@ const Home = () => {
 					Chitransh Khare
 				</h1>
 				<h2 className="text-xl md:text-2xl font-semibold text-gray-700 mb-4 animate-fade-in delay-100">
-					Front End Developer
+					MERN Stack Developer | Full Stack Developer
 				</h2>
 				<p className="text-lg md:text-xl text-gray-600 mb-2 animate-fade-in delay-200">
 					Talk is cheap, show me the code.

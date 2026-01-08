@@ -2,22 +2,26 @@
 import React from "react";
 
 const skills = [
+	{ name: "MongoDB", color: "bg-emerald-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+	{ name: "Express.js", color: "bg-gray-700", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+	{ name: "React.js", color: "bg-cyan-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+	{ name: "Node.js", color: "bg-lime-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+	{ name: "JavaScript (ES6+)", color: "bg-yellow-300", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+	{ name: "Mongoose", color: "bg-green-600", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+	{ name: "REST APIs", color: "bg-indigo-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
+	{ name: "Authentication (JWT)", color: "bg-yellow-700", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
 	{ name: "HTML5", color: "bg-orange-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
 	{ name: "CSS3", color: "bg-blue-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-	{ name: "JavaScript", color: "bg-yellow-300", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-	{ name: "React.js", color: "bg-cyan-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
 	{ name: "TailwindCSS", color: "bg-teal-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
-	{ name: "Python", color: "bg-green-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-	{ name: "Netlify", color: "bg-indigo-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg" },
-	{ name: "Git", color: "bg-red-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-	{ name: "Node.js", color: "bg-lime-400", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+	{ name: "Git & GitHub", color: "bg-gray-800", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+	{ name: "Postman", color: "bg-orange-600", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
 ];
 
 const Skill = () => {
 	return (
 		<section id="skills" className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-blue-200 py-16">
-			<h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4 animate-fade-in">My Professional Skills</h2>
-			<p className="text-lg md:text-xl text-gray-700 mb-8 animate-fade-in delay-100">Empowering ideas with modern technologies and clean code.</p>
+			<h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4 animate-fade-in">MERN Stack Developer Skills</h2>
+			<p className="text-lg md:text-xl text-gray-700 mb-8 animate-fade-in delay-100">Focused on MongoDB, Express.js, React.js, and Node.js — building full-stack applications.</p>
 					<div className="flex flex-wrap justify-center gap-8 max-w-4xl animate-fade-in delay-200">
 						{skills.map((skill, idx) => (
 							<div
